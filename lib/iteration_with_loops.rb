@@ -8,7 +8,8 @@ def find_even_values(src)
 
     inner_count=0
     while inner_count < src[count].length do
-      even_array << src[count][inner_count] = src[count][inner_count].even
+      even_array << src[count][inner_count]
+      puts even_array.select(&:even?)
 
       inner_count +=1
   end
