@@ -14,5 +14,5 @@ def find_even_values(src)
   end
   # Output all even values in each nested array
  count += 1
+ even_array.even
 end
-even_array.even 
