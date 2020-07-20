@@ -8,12 +8,11 @@ def find_even_values(src)
 
     inner_count=0
     while inner_count < src[count].length do
-      even_array << src[count][inner_count]
+      even_array << src[count][inner_count] = src[count][inner_count].even
 
       inner_count +=1
   end
   # Output all even values in each nested array
  count += 1
 end
-even_array.even
 end
